@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+<h1 style="text-align:center">Calculadora de IMC</h1>
+<br>
+<div align="center">
+    <img src="https://img.shields.io/badge/Framework-React-success">
+    <img src="https://img.shields.io/badge/%3C%3E-typescript-cyan">
+    <img src="https://img.shields.io/badge/CSS-StyledComponents-blue">
+</div>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+    <img src="./.github/img/app.png" alt="Calculadora de IMC"/>
+</div>
 
-## Available Scripts
+<div align="center">
+    <a href="#sobre">Sobre</a> | 
+    <a href="#run">Rodando o projeto</a>
+</div>
 
-In the project directory, you can run:
+<a id="sobre"></a>
 
-### `npm start`
+## 🍓 Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Uma Calculadora de IMC funcional feita com react
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**_Projeto do curso da B7web_**
 
-### `npm test`
+## :running: Rodando o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📂 Rodando através da fonte.
 
-### `npm run build`
+#### 1. Pré-requisitos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **[Node.js](https://nodejs.org/en/)**, **[Git](https://git-scm.com/)** e um gerenciador de pacotes (**[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**) instalados na máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 2. Instalando dependências
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+$ npm install
+# ou
+$ yarn install
+```
 
-### `npm run eject`
+#### 3. Iniciando
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ npm run start
+# ou
+$ yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔖 Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Caso queira conferir a licença do projeto, só olhar esse arquivo [LICENSE](./LICENSE)
