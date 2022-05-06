@@ -77,4 +77,26 @@ body {
     
 }
 
+.container .rigthSide .rigthBig{
+    flex: 1;
+    display: flex;
+}
 
+.container .rigthSide .rigthArrow{
+    position: absolute;
+    background-color: #227c9d;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-top: 145px;
+    transition: all ease 3s;
+}
+
+.container .rigthSide .rigthArrow:hover{
+    opacity: .8;
+}
