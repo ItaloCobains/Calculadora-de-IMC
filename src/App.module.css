@@ -46,6 +46,10 @@ body {
     outline: 0;
 }
 
+.container .leftSide input:disabled{
+    opacity: .5;
+}
+
 .container .leftSide button{    
     background-color: #227c9d;
     color: #fff;
@@ -61,6 +65,10 @@ body {
 
 .container .leftSide button:hover{
     opacity: 0.9;
+}
+
+.container .leftSide button:disabled{
+    opacity: .5;
 }
 
 .container .rigthSide{
